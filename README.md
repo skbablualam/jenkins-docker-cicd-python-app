@@ -68,3 +68,43 @@ sudo yum install jenkins -y
 sudo systemctl start jenkins
 sudo systemctl enable jenkins
 ```
+### 🔁 CI/CD Flow
+
+Developer pushes code to GitHub.
+
+Jenkins job triggers (via webhook or manual build).
+
+Jenkins:
+
+Pulls the code from GitHub.
+
+Builds a Docker image.
+
+Runs the Flask app in a container.
+
+App is available on: http://<ec2-public-ip>:5000
+
+### 📷 Screenshots
+
+(Add screenshots of Jenkins pipeline, Docker running containers, or web output here)
+
+### 💡 Future Enhancements
+
+Add testing stage (e.g., Pytest)
+
+Deploy to production using Nginx + Gunicorn
+
+Use Docker Compose for multi-container apps
+
+Setup monitoring with Prometheus + Grafana
+
+
+### 🧑‍💻 Author
+
+Bablu Alam
+
+Cloud & DevOps Engineer
+
+LinkedIn | Bangalore, India
+
+
