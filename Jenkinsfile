@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/skbablualam/jenkins-docker-cicd-python-app.git'
+                git 'https://github.com/skbablualam/jenkins-docker-cicd-python-app.git', branch: 'main'
             }
         }
 
