@@ -87,7 +87,11 @@ App is available on: http://<ec2-public-ip>:5000
 ### 📷 Screenshots
 
 ![Image 1947-03-05 at 7 41 PM](https://github.com/user-attachments/assets/acc783c5-cfc1-4ec1-84df-4bcf235e90a2)
+
 ![Image 1947-03-05 at 8 38 PM](https://github.com/user-attachments/assets/e923441f-fc40-425f-9247-ab960ddc29f6)
+
+![Image 1947-03-05 at 8 44 PM](https://github.com/user-attachments/assets/14d9874e-b639-47e8-acee-69a4542cee34)
+
 ![Image 1947-03-05 at 8 43 PM](https://github.com/user-attachments/assets/e1d46828-a4f3-42e5-978a-3a41e0199149)
 
 
