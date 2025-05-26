@@ -56,7 +56,7 @@ Install **Java**, **Jenkins**, **Docker**, and start the Jenkins service.
 ```bash
 # Amazon Linux 2
 sudo yum update -y
-sudo yum install java-11-amazon-corretto docker git -y
+sudo yum install java-17-amazon-corretto docker git -y
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker ec2-user
@@ -83,6 +83,23 @@ Builds a Docker image.
 Runs the Flask app in a container.
 
 App is available on: http://<ec2-public-ip>:5000
+
+### 🧪 Optional: Add GitHub Webhook (Auto Trigger on Push)
+On GitHub:
+
+Go to Settings → Webhooks → Add webhook
+
+Payload URL: http://<your-ec2-ip>:8080/github-webhook/
+
+Content type: application/json
+
+Trigger: Just the push event
+
+In Jenkins:
+
+Go to job config → Build Triggers
+
+Check GitHub hook trigger for GITScm polling
 
 ### 📷 Screenshots
 
